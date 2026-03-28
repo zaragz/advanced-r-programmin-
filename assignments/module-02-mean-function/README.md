@@ -18,8 +18,3 @@ https://rprogrammingjournalzara.blogspot.com/2026/01/evaluating-and-debugging-r-
 ## Author
 Zara Gonzalez  
 University of South Florida
-
-## Author
-Zara Gonzalez  
-University of South Florida  
-Advanced R Programming

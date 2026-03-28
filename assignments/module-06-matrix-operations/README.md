@@ -1,22 +1,20 @@
-# Matrix Operations in R – Module 6 Assignment
+# Module 06 – Matrix Operations in R
 
-## Description
-This repository contains R code for practicing basic matrix operations, including matrix addition, subtraction, and creating diagonal and custom matrices.
+## Overview
+Practiced basic matrix operations in R, including matrix creation and arithmetic.
 
-This project is part of Module 6 and focuses on learning linear algebra concepts in R.
-
----
+## Key Concepts
+- Matrix creation with `matrix()`
+- Matrix addition and subtraction
+- Diagonal matrices using `diag()`
+- Row and column operations
 
 ## Files
-- matrix_assignment.R – R script with assignment solutions
-- README.md – Project documentation
+- `module-06-matrix-operations.R` — R script with matrix operations
 
----
+## Blog Post
+https://rprogrammingjournalzara.blogspot.com/2026/02/matrix-operations-in-r.html
 
-## Topics Covered
-- Matrix creation
-- Matrix arithmetic
-- diag() function
-- Row and column manipulation
-
----
+## Author
+Zara Gonzalez  
+University of South Florida

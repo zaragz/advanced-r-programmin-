@@ -12,7 +12,8 @@ Created and manipulated a data frame in R using simulated polling data.
 - module-03-dataframe.R — Data frame creation, calculations, and analysis
 
 ## Blog Post
-[(link)](https://rprogrammingjournalzara.blogspot.com/2026/02/creating-and-analyzing-data-frames-in-r.html)
+Full explanation and walkthrough:
+https://rprogrammingjournalzara.blogspot.com/2026/02/creating-and-analyzing-data-frames-in-r.html
 
 ## Author
 Zara Gonzalez  

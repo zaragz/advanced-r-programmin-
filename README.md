@@ -8,6 +8,7 @@ This repository contains coursework and projects completed for a graduate-level 
 ---
 
 ## Repository Structure
+```text
 advanced-r-programming/
 ├── README.md
 ├── assignments/
@@ -21,7 +22,7 @@ advanced-r-programming/
 │   ├── module-09-data-visualization/
 │   └── module-10-r-package/
 └── final-project-r-package/
-
+```
 ### Assignments
 - module-02-mean-function
 - module-03-dataframe

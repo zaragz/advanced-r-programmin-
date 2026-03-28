@@ -8,10 +8,19 @@ This repository contains coursework and projects completed for a graduate-level 
 ---
 
 ## Repository Structure
-advanced-r-programming/ 
-├── assignments/ 
-├── final-project-r-package/ 
-└── README.md
+advanced-r-programming/
+├── README.md
+├── assignments/
+│   ├── module-02-mean-function/
+│   ├── module-03-dataframe/
+│   ├── module-04-hospital-blood-pressure-analysis/
+│   ├── module-05-determinant-inverse-matrices/
+│   ├── module-06-matrix-operations/
+│   ├── module-07-s3-s4-oop/
+│   ├── module-08-io-string-plyr/
+│   ├── module-09-data-visualization/
+│   └── module-10-r-package/
+└── final-project-r-package/
 
 ### Assignments
 - module-02-mean-function

@@ -14,9 +14,6 @@ Two matrices were created:
 - module-05-determinant-inverse-matrices.R  
   R script used to create matrices, compute determinants, and attempt inversions
 
-- console-output.txt (optional)  
-  Output from running the R script, including error messages
-
 ---
 
 ## Methods Used

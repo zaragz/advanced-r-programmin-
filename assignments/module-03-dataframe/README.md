@@ -1,9 +1,19 @@
-# module-3-dataframe
-Module 3 assignment: data.frame in R
+# Module 03 – Data Frames in R
 
-# Module 3 – Data Frames in R
-This repository contains my Module 3 assignment for creating a data frame in R using fictional polling results.
+## Overview
+Created and manipulated a data frame in R using simulated polling data.
+
+## Key Concepts
+- Creating vectors and data frames
+- Column operations and transformations
+- Sorting and summarizing data
 
 ## Files
-- module3_dataframe.R – Creates vectors and combines them into a data frame.
+- module-03-dataframe.R — Data frame creation, calculations, and analysis
 
+## Blog Post
+[(link)](https://rprogrammingjournalzara.blogspot.com/2026/02/creating-and-analyzing-data-frames-in-r.html)
+
+## Author
+Zara Gonzalez  
+University of South Florida

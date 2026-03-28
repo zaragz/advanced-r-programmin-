@@ -1,62 +1,25 @@
-# Module 05 - Determinant and Inverse Matrices in R
+# Module 05 – Determinant and Inverse Matrices in R
 
-## Assignment Description
-This assignment explores matrix creation in R and evaluates whether matrices have a valid determinant and inverse. The goal is to understand the conditions required for matrix inversion and how R handles errors when those conditions are not met.
+## Overview
+Explored matrix operations in R, focusing on determinants and matrix inversion.
 
-Two matrices were created:
-- A = matrix(1:100, nrow = 10)
-- B = matrix(1:1000, nrow = 10)
+## Key Concepts
+- Creating matrices with `matrix()`
+- Checking dimensions with `dim()`
+- Determinants using `det()`
+- Matrix inversion using `solve()`
+- Error handling with `tryCatch()`
 
----
-
-## Files in This Repository
-
-- module-05-determinant-inverse-matrices.R  
-  R script used to create matrices, compute determinants, and attempt inversions
-
----
-
-## Methods Used
-
-The following R functions were used:
-
-- `matrix()` to create matrices  
-- `dim()` to check dimensions  
-- `det()` to calculate determinants  
-- `solve()` to compute matrix inverses  
-- `tryCatch()` to handle errors for invalid operations  
-
----
+## Files
+- `module-05-determinant-inverse-matrices.R` — Script for matrix creation, determinant calculation, and inversion attempts
 
 ## Results
+- Matrix A (10×10) is square → determinant exists and inverse computed
+- Matrix B (10×100) is not square → determinant undefined and inversion fails
 
-### Matrix A
-- Size: 10 × 10 (square)  
-- `det(A)` was computed  
-- `solve(A)` successfully returned an inverse  
-- Matrix A meets the requirements for inversion  
+## Blog Post
+https://rprogrammingjournalzara.blogspot.com/2026/02/module-5-determinant-and-inverse-of.html
 
-### Matrix B
-- Size: 10 × 100 (not square)  
-- `det(B)` is not defined  
-- `solve(B)` produced an error  
-- Matrix B cannot be inverted  
-
----
-
-## Conclusion
-
-This assignment demonstrated that only square matrices can have determinants and inverses. Matrix A satisfies this condition, while Matrix B does not. Additionally, the use of `tryCatch()` allows errors to be handled gracefully without stopping execution. This reinforces both mathematical concepts and practical error handling in R.
-
----
-
-## Additional Exploration (Optional)
-
-Additional operations were performed to deepen understanding:
-
-- Transposing matrices using `t()`  
-- Matrix-vector multiplication using `%*%`  
-- Matrix-matrix multiplication  
-- Inverting a small 2×2 matrix for clarity  
-
-These steps help reinforce how matrix operations behave in R and provide a stronger foundation for future data analysis tasks.
+## Author
+Zara Gonzalez  
+University of South Florida

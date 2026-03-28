@@ -1,7 +1,8 @@
 # Advanced R Programming
-# Zara Gonzalez
+**Author:** Zara Gonzalez
+**Course:** LIS4370 Advanced R Programming
 
-**LIS4370 Advanced R Programming**
+
 
 This repository contains coursework and projects completed for a graduate-level course in Advanced R Programming. The course focuses on advanced scripting, data structures, object-oriented programming (S3/S4), data analysis, and reproducible workflows in R.
 

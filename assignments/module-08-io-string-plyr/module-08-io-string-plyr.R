@@ -6,11 +6,11 @@ if (!require(plyr)) install.packages("plyr")
 library(plyr)
 
 # STEP 1: Import dataset
-# Option A (recommended): choose file interactively
+# Choose file interactively
 students <- read.table(file.choose(), header = TRUE, sep = ",", stringsAsFactors = FALSE)
 
-# Option B: if you want to hardcode a path, replace with your real file path
-# students <- read.table("Assignment 6 Dataset.txt", header = TRUE, sep = ",", stringsAsFactors = FALSE)
+# OR
+# students <- read.table("module-08-dataset.txt", header = TRUE, sep = ",", stringsAsFactors = FALSE)
 
 # STEP 1: mean Grade using Sex as the category (plyr)
 students_gendered_mean <- ddply(
@@ -29,7 +29,7 @@ i_students <- subset(students, grepl("i", Name, ignore.case = TRUE))
 # Create a file that lists ONLY the names separated by commas (one line)
 writeLines(paste(i_students$Name, collapse = ","), "i_names.csv")
 
-# (Optional but clean) also save the filtered dataset as a CSV table
+# Also save the filtered dataset as a CSV table
 write.csv(i_students, "i_students_filtered.csv", row.names = FALSE)
 
 # STEP 3: Write the filtered data set to CSV (this satisfies “convert it to CSV file”)

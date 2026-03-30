@@ -12,6 +12,6 @@ Imports: ggplot2, dplyr
 License: CC0
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/YOURUSERNAME/Friedman
-BugReports: https://github.com/YOURUSERNAME/Friedman/issues
+URL: https://github.com/zaragz/advanced-r-programmin-/blob/main/assignments/module-10-r-package/Friedman
+BugReports: https://github.com/BLANK/Friedman/issues
 RoxygenNote: 7.3.3

@@ -1,0 +1,17 @@
+Package: Friedman
+Title: Tools for Exploring and Visualizing Data Mining Results
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zara", "Gonzalez", email = "zaragonzalez@usf.edu", role = c("aut", "cre"))
+Description: Provides helper functions for cleaning, summarizing,
+    and visualizing data mining and statistical analysis results.
+    The package is designed to support student projects by organizing
+    repeated workflows into reusable tools for analysis and reporting.
+Depends: R (>= 3.1.2)
+Imports: ggplot2, dplyr
+License: CC0
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/YOURUSERNAME/Friedman
+BugReports: https://github.com/YOURUSERNAME/Friedman/issues
+RoxygenNote: 7.3.3

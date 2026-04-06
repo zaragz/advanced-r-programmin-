@@ -1,5 +1,6 @@
-# Module 11 - Debugging and Defensive Programming in R
+# Module 11: Debugging and Defensive Programming in R
 # Zara Gonzalez
+# This script reproduces, diagnoses, and fixes a logical bug in a Tukey outlier function.
 
 # Original helper function
 tukey.outlier <- function(x, k = 1.5) {

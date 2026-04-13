@@ -1,0 +1,55 @@
+---
+title: "My R Markdown Primer"
+author: "zara gonzalez"
+date: "2026-04-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+R Markdown is a tool that allows you to combine writing, code, and output in one document. It helps keep analysis organized and makes it easier to reproduce results. Instead of separating code and explanation, everything is written in one place and compiled into a final report.
+
+# Narrative Section
+
+R Markdown is useful because it keeps everything together. You can write explanations and run code in the same file, which makes it easier to understand your work. It also automatically formats the final document when you knit it, making it look more professional.
+
+# LaTeX Math
+
+Here is an example of inline math: $alpha + beta = gamma$.
+
+Here is a displayed equation:
+
+$$
+\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}
+$$
+
+This equation represents the formula for the mean.
+
+```{r}
+library(ggplot2)
+data(mtcars)
+summary(mtcars)
+
+
+
+```{r}
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(
+    title = "Car Weight vs. Miles Per Gallon",
+    x = "Weight",
+    y = "Miles Per Gallon"
+  )
+```
+
+This plot shows that heavier cars tend to have lower miles per gallon.
+
+# Reflection
+
+Using R Markdown was different from writing a plain report because it allows you to combine code and explanations in one place. I liked how easy it was to knit the document and see everything formatted nicely.
+
+One formatting surprise I noticed was that LaTeX math and code chunks only render correctly after knitting, not in the raw .Rmd file. The main challenge was making sure everything displayed correctly after knitting, especially the math and formatting. Overall, R Markdown is a useful tool for creating organized and reproducible reports.
